@@ -1,0 +1,17 @@
+.container{
+    background-image: url('/images/h_img.jpg');
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+img{
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+/* Styling the About */
+.about{
+    text-align: center;
+    margin-top: 50px;
+    /* width: 80px; */
+}
+ 
