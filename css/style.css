@@ -23,11 +23,29 @@ img{
     background-image: url('/images/s_image.jpg');
     background-size: cover ;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 350px;
+}
+#services{
+    padding-top: 100px;
 }
 /* Styling what we do section */
- h4{
-     margin-top: 0px;
- }
-
+.job{
+    display: flex;
+    justify-content: space-between;
+}
+#header{
+    text-align: center;
+    padding-top: 20px;
+}
+.design{
+    padding-left: 80px;
+}
+h4{
+    font-size: medium;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.management{
+    padding-right: 20px;
+}
  
