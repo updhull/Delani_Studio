@@ -1,17 +1,33 @@
 .container{
     background-image: url('/images/h_img.jpg');
-    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
     color: white;
     text-align: center;
+   
 }
 img{
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 30px;
 }
-/* Styling the About */
+/* Styling the about section*/
 .about{
     text-align: center;
-    margin-top: 50px;
-    /* width: 80px; */
+    margin-top: 0px;
+    
 }
+ /* styling the service section */
+.services{
+    text-align: center;
+    color: white;
+    background-image: url('/images/s_image.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+/* Styling what we do section */
+ h4{
+     margin-top: 0px;
+ }
+
  
