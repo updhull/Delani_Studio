@@ -48,4 +48,14 @@ h4{
 .management{
     padding-right: 20px;
 }
- 
+/* Styling the portfolio */
+.portfolio{
+    text-align: center;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+
+} 
+#one{
+    text-align: center;
+}
