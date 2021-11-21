@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/jquery-3.6.0.js"></script>
+    <script src="/js/main.js"></script>
     <title>Delani Studios</title>
 </head>
 <body>
@@ -36,25 +38,32 @@
     <!-- What we do section -->
         <h1 id="header">WHAT WE DO</h1>
     <div class="job">
-        <div class="design">
-            <img src="/images/design_icon.png" alt="Design Icon">
-            <h4>DESIGN</h4>
-            <h5 class="effect">DESIGN</h5>
-            <p class="effect">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing</p>
+        <div class="images">
+            <img src="/images/design_icon.png" alt="Design Icon" id="image" height="80" width="80">
+            <img src="/images/dev_icon.png" alt="Development Icon" id="image1" height="80" width="80">
+            <img src="/images/product_icon.png" alt="Product Icon" id="image2" height="80" width="80">
         </div>
-        <div class="development">
-            <img src="/images/dev_icon.png" alt="Development Icon">
-            <h4>DEVELOPMENT</h4>
-            <h5 class="effect">DEVELOPMENT</h5>
-            <p class="effect">All engineers are fluent in the latest enterprise,mobile and web development technologies. <br>They collaborate with your team to write, and improve code on a daily basis, usong proven practices such as test-driven development and pair programming.</p>
+       <div class="headers">
+           <h4 class="one">DESIGN</h4>
+           <h4 class="two ">DEVELOPMENT</h4>
+           <h4 class="three">PRODUCT MANAGEMENT</h4>
+       </div>
+       <div class="paragraphs">
+            <div class="design">
+                <h4>DESIGN</h4>
+                <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing <br>
+                Throughout your project, our designers create and implement visual design and workflows,solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+            </div>
+            <div class="development">
+                <h4>DEVELOPMENT</h4>
+                <p>All engineers are fluent in  the latest enterprise,mobile and web development technologies. <br> They collaborate with your team to write and improve cide on daily basis, using proven practices such as test-driven development and pair programming.</p>
+            </div>
+            <div class="management">
+                <h4>PRODUCT MANAGEMENT</h4>
+                <p>Planning and development is iterative, Because we are constantly coding and testing , the products we build are always ready to go live. <br> This iterative process allows for changes as business requirements evolve.</p>
+            </div>
         </div>
-        <div class="management">
-            <img src="/images/product_icon.png" alt="Product Icon">
-            <h4>PRODUCT MANAGEMENT</h4>
-            <h5 class="effect">PRODUCT MANAGEMENT</h5>
-            <p class="effect">Planning and development is iterative, Because we are constantly coding and testing, thr products we build are  always ready to go live. <br>This iterative process allows for changes as business requirements evolve.
-            </p>
-        </div>
+         
     </div>
     <!-- Portfolio Section -->
      
@@ -90,6 +99,9 @@
             </div>
         </div>
     </div>
+    <!-- Contact Us Section -->
+
 
 </body>
+
 </html>
