@@ -4,7 +4,7 @@
 This is a website for Delani Studio showing its services and a form to reach out to them.
 
 #### Live Page Link
-
+Click [here](https://updhull.github.io/Delani_Studio/) to go to the live demo
 
 ### Languages Used
 * HTML
