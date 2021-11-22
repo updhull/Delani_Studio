@@ -77,6 +77,4 @@ $(document).ready(function(){
         $("#seventeen").hide();
     });
 });
-
-
-
+// Forms
