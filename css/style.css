@@ -31,7 +31,7 @@ img{
 .services{
     text-align: center;
     color: white;
-    background-image: url('/images/s_image.jpg');
+    background-image: url('../images/s_image.jpg');
     background-size: cover ;
     background-repeat: no-repeat;
     height: 350px;
