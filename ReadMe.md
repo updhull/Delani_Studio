@@ -1,8 +1,10 @@
 # Delani Studios Website by Abdullahi Abdi
-This project features a generator that derives an Akan names with regard to the day of the week that a user was born and their gender.
-
+ This project features a landing page for Delani Studios.
 ###  Description
- 
+This is a website for Delani Studio showing its services and a form to reach out to them.
+
+#### Live Page Link
+
 
 ### Languages Used
 * HTML
@@ -11,8 +13,8 @@ This project features a generator that derives an Akan names with regard to the 
 * Javascript
 
 ### Requirements
-* Either a computer,phone,tablet or an Ipad
-* An access to the Internet
+* Either a computer,phone,tablet or an Ipad.
+* An access to the Internet.
 
  ### Project setup & collaboration
  * To get a local copy up of this project, Clone the repo:
