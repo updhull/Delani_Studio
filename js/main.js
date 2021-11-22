@@ -1,17 +1,25 @@
 $(document).ready(function(){
     $("#image").click(function(){
-        $("#image").toggle();
         $("#design").toggle();
+        $("#design").click(function(){
+            $(".four").toggle();
+        });
+       
     });
     $(document).ready(function(){
         $("#image1").click(function(){
-            $("#image1").toggle();
             $("#development").toggle();
+            $("#development").click(function(){
+                $(".five").toggle();
+            });
         });
     $(document).ready(function(){
         $("#image2").click(function(){
-            $("#image2").toggle();
             $("#management").toggle();
+            $("#management").click(function(){
+                $(".six").toggle();
+            });
+           
         });
     });
 });
