@@ -124,12 +124,55 @@ h2{
     margin-top: -5%;
 }
 #ten{
-    /* display: none; */
+    display: none;
     transform: translate(0px,-120px);
     color: white;
     border: 2px solid white;
    
 }
+#eleven{
+    display: none;
+    transform: translate(0px,-120px);
+    /* color: blue; */
+    border: 2px solid white;
+}
+#twelve{
+    display: none;
+    transform: translate(0px,-120px);
+    /* color: white; */
+    border: 2px solid white;
+}
+#thirteen{
+    display: none;
+    transform: translate(0px,-120px);
+    color: white;
+    border: 2px solid white;
+}
+#fourteen{
+    display: none;
+    transform: translate(0px,-120px);
+    /* color: white; */
+    border: 2px solid white;
+}
+#fifteen{
+    display: none;
+    transform: translate(0px,-120px);
+    /* color: white; */
+    border: 2px solid white;
+}
+#sixteen{
+    display: none;
+    transform: translate(0px,-120px);
+    color: white;
+    border: 2px solid white;
+}
+#seventeen{
+    display: none;
+    transform: translate(0px,-120px);
+    color: white;
+    border: 2px solid white;
+}
+
 /*       contact Us Section */
 .container-cont{
     background-image: url('/images/c_image.jpg');
