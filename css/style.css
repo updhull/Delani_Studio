@@ -21,8 +21,11 @@ img{
 /* Styling the about section*/
 .about{
     text-align: center;
-    margin-top: 6%;
+    /* margin-top: 6%; */
     
+}
+.about h1{
+    margin-top: 5%;
 }
  /* styling the service section */
 .services{
@@ -90,6 +93,7 @@ h4{
 #design{
     display: none;
     text-align: center;
+   
 }
 #development{
     display: none;
@@ -103,9 +107,50 @@ h4{
 /* Styling the portfolio */
 h2{
     text-align: center;
+    margin-top: 5%;
 }
-.folio {
-    padding-top: 1%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+.class1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -5%;
+}
+.class2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -5%;
+}
+#ten{
+    /* display: none; */
+    transform: translate(0px,-120px);
+    color: white;
+    border: 2px solid white;
+   
+}
+/*       contact Us Section */
+.container-cont{
+    background-image: url('/images/c_image.jpg');
+    color: white;
+    
+}
+#contactUs{
+    padding-top: 5%;
+}
+#contactUs h3{
+    color: white;
+}
+/* Footer */
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+#message {
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+::placeholder{
+    color: white;
+    font-size: larger;
 }
