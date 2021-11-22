@@ -1,9 +1,17 @@
-.container{
-    background-image: url('/images/h_img.jpg');
-     background-size: cover;
-     background-repeat: no-repeat;
-    color: white;
+ *{
+    font-family: 'Estonia', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Sail', cursive;
     text-align: center;
+ }
+.container{
+    background-image: url('../images/h_img.jpg');
+    background-size: cover;
+    color: white;
+    line-height: 50px;
+    padding-top: 15%;
+    font-size: larger;
+   
    
 }
 img{
@@ -13,7 +21,7 @@ img{
 /* Styling the about section*/
 .about{
     text-align: center;
-    margin-top: 0px;
+    margin-top: 6%;
     
 }
  /* styling the service section */
@@ -24,13 +32,20 @@ img{
     background-size: cover ;
     background-repeat: no-repeat;
     height: 350px;
+    margin-top: 5%;
 }
 #services{
     padding-top: 100px;
 }
 /* Styling what we do section */
+.job{
+    margin-top: -5%;
+    display: flex;
+    justify-content: space-around;
+}
 #header{
     text-align: center;
+      margin-top: 5%;
 }
 .images{
     display: flex;
@@ -39,62 +54,58 @@ img{
 .headers{
     display: flex;
     justify-content: space-around;
-    /* padding-left: 150px; */
-    /* padding-right: 50px; */
-}
-.one{
-    margin-top: -30px;
-    padding-left: 100px;
-}
-.two{
-    margin-top: -30px;
-    padding-left: 200px; 
-}
-.three{
-    margin-top: -30px;
-    padding-left: 120px;
 }
 .paragraphs{
     display: flex;
     justify-content: space-around;
 }
-.design{
-    display: none;
-    width: 80%;
+h4{
+    font-weight: bold;
     text-align: center;
+}
+.design{
+  text-align: center;
 }
 .development{
-    display: none;
-    width: 80%;
-    text-align: center;
+  text-align: center;
 }
 .management{
+  text-align: center;
+}
+#span{
+    margin-top: -20px;
+    font-weight: bold;
+    text-align: center;
+}
+#span1{
+    margin-top: -20px;
+    font-weight: bold;
+    text-align: center;
+}
+#span2{
+    margin-top: -20px;
+    font-weight: bold;
+    text-align: center;
+}
+#design{
     display: none;
-    width: 80%;
     text-align: center;
 }
+#development{
+    display: none;
+    text-align: center;
+}
+#management{
+    display: none;
+    text-align: center;
 
+}
 /* Styling the portfolio */
-.portfolio{
+h2{
     text-align: center;
 }
-
-#one{
-    text-align: center;
-}
-.class1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-left: 180px;
-    padding-right: 180px;
-
-}
-.class2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-left: 180px;
-    padding-right: 180px;
-    margin-top: 0px;
+.folio {
+    padding-top: 1%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 }
